@@ -1,0 +1,130 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>[Project name]</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>      
+    </head>
+    <body>
+      <nav class="nav fixed-top navbar-dark bg-dark justify-content-center">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#perks">Our Perks</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      <div id="page-wrapper">
+        <div id="home" class="full-width text-center">
+            <!-- Title -->
+            <div class="intro">
+                <h1 id="title">{Your Title Here}</h1>
+                <h4 id="sub-title">Welcome to my first website!</h4>
+            </div>
+        </div>
+        <div id="about" class="contentSection">
+          <h2>About</h2>
+          <div id="team-section" class="container">
+              <img class="img-thumbnail team-photo" src="[YOUR_IMG_URL]" alt="team photo">
+              <br><span><strong>[Image Title/Optional]</strong></span>                                
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+                  in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+          </div>
+        </div>
+        <div id="perks" class="contentSection">
+          <h2>Our perks</h2>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-sm-12 col-lg-4">
+                <img class='perk-photo' src="[YOUR_IMG_URL]" alt="perk photo">
+                <h4>Networking</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+              <div class="col-sm-12 col-lg-4">
+                <img class='perk-photo' src="[YOUR_IMG_URL]" alt="perk photo">
+                <h4>Productivity</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+              <div class="col-sm-12 col-lg-4">
+                <img class='perk-photo' src="[YOUR_IMG_URL]" alt="perk photo">
+                <h4>Personalization</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="contact" class="contentSection">
+          <h2>Contact</h2>
+          <div class="container">
+            <button type="button" class="btn-lg btn-primary m-5" data-toggle="modal" data-target="#exampleModal">
+              Contact Me!
+            </button>
+            <p>You can find me at any of the following place:</p>
+            <ul class="link-list p-0">
+              <li><a href="#" target="_blank">GitHub</a></li>
+              <li><a href="#" target="_blank">LinkedIn</a></li>
+              <li><a href="#" target="_blank">Twitter</a></li>
+            </ul>
+          </div>
+          <div class="modal fade text-left" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="nameInput">Full Name</label>
+                      <input type="text" class="form-control" id="nameInput" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                      <label for="emailInput">Email</label>
+                      <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="commentInput">Comment</label>
+                      <textarea class="form-control" id="commentInput" rows="3"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+        <div id="footer" class="text-center">
+          <small>&copy; Copyright 2018 {Your Title} </small>
+        </div>
+      </div>
+    </body>
+  </html>
