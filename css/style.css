@@ -15,11 +15,11 @@ html, body {
     width: 100%;
     height: 600px;
     position: relative;
-    background: maroon;
-    /* background: linear-gradient(
+    /* background: maroon; */
+    background: linear-gradient(
         rgba(0, 0, 0, 0.65), 
         rgba(0, 0, 0, 0.15)
-      ), url('https://cdn.stocksnap.io/img-thumbs/960w/3SNCXN2Z1B.jpg'); */
+      ), url('https://cdn.stocksnap.io/img-thumbs/960w/3SNCXN2Z1B.jpg');
     background-size: cover;
     color: #ffffff;        
 }
