@@ -102,7 +102,7 @@ Now that we have a section to hold the code we can actually see, we can now star
         <ul>
           <li>Home</li>
           <li>About</li>
-          <li>Our Tech</li>
+          <li>Our Perks</li>
           <li>Contact</li>
         </ul>
       </div>
@@ -117,7 +117,7 @@ Our links need to be clickable, so we need to surround them with 'a' tags. You'l
 <ul>
   <li><a>Home</a></li>
   <li><a>About</a></li>
-  <li><a>Our Tech</a></li>
+  <li><a>Our Perks</a></li>
   <li><a>Contact</a></li>
 </ul>
 ```
